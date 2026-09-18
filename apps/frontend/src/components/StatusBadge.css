@@ -1,0 +1,18 @@
+.status-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.status-badge--ativo {
+  background: var(--color-success-bg);
+  color: var(--color-success-text);
+}
+
+.status-badge--inativo {
+  background: var(--color-inactive-bg);
+  color: var(--color-inactive-text);
+}
